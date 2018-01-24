@@ -1,7 +1,7 @@
-# appyFizz
+# Appy Fizz
 An API config helper for production AS WELL AS staging ready frontend code
 
-> __Note: This is WIP.__
+> __Note: This is WIP.__ <br>
 > Most part of it is not configurable yet.
 
 
@@ -17,14 +17,14 @@ server from your production env., you are in deep shit!)
 ### Function Description:
 
 1. `isTestEnv`:
-<br> __Takes__: Nothing
-<br> __Returns__:  `true` if the evn is localhost or staging(should include "staging" text in the host name).
+<br> __TAKES__: Nothing
+<br> __RETURNS__:  `true` if the evn is localhost or staging(should include "staging" text in the host name).
 2. `makeAjaxRequest`:
-<br> __Takes_: `params` object with only the varying info about the ajax settings object like `method`, `body` etc.
-<br> __Returns__: Ajax settings object in the proper format by adding other required header and parameters.
+<br> __TAKES__: `params` object with only the varying info about the ajax settings object like `method`, `body` etc.
+<br> __RETURNS__: Ajax settings object in the proper format by adding other required header and parameters.
 3. `makeUrl`:
-<br> __Takes__: A string representing the end point of the URL
-<br>__Returns__: A string representing the whole url depending on the env.
+<br> __TAKES__: A string representing the end point of the URL
+<br> __RETURNS__: A string representing the whole url depending on the env.
 
 
 ### Task List
