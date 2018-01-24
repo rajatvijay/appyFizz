@@ -3,7 +3,7 @@ const sessionId = 'sessionId';
 const stagingHost = 'https://staging.com/';
 const productionHost = 'https://productionHost.com';
 
-const isTestEnv = () => {
+export const isTestEnv = () => {
   return window.location.href.includes('localhost') ||
     window.location.href.includes('staging');
 };
